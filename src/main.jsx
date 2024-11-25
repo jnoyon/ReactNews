@@ -6,11 +6,12 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import "./index.css";
+import HomeLayout from './layouts/HomeLayout';
 
 const router = createBrowserRouter([
   {
       path: "/",
-      element: <h1> Home </h1>
+      element: <HomeLayout></HomeLayout>
   },
   {
       path: "/news",
